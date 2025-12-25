@@ -1,6 +1,7 @@
 import "./App.css";
 import ClickCounter from "./components/ClickCounter";
 import DoubleTriple from "./components/DoubleTriple";
+import FruitList from "./components/FruitList";
 import ToggleText from "./components/ToggleText";
 
 function App() {
@@ -16,7 +17,13 @@ function App() {
 
         <h2>Question 3 — Simple Toggle Text</h2>
         <ToggleText/>
+
+        <h2>Question 7 — Fruits List (Add + Remove)</h2>
+
+        <FruitList />
       </div>
+
+      
     </div>
   )
 }
