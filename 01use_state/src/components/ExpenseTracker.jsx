@@ -8,7 +8,7 @@ export default function ExpenseTracker() {
   // })
 
   const [title, setTitle] = useState("");
-  const [amount, setAmount] = useState();
+  const [amount, setAmount] = useState("");
   const [expenses, setExpenses] = useState([]);
 
   function addExpense(e) {
@@ -29,8 +29,11 @@ export default function ExpenseTracker() {
     setTitle("");
     setAmount("");
 
-    let total = expenses.reduce((sum, i) => sum + i.amount, 0)
+    
   }
+
+  let total = expenses.reduce((sum, i) => sum + i.amount, 0);
+
   return (
     <div>
       <form onSubmit={addExpense}>
