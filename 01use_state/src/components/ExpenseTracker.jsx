@@ -71,6 +71,8 @@ export default function ExpenseTracker() {
           ))}
         </tbody>
       </table>
+
+      <h3>Total: ₹{total}</h3>
     </div>
   );
 }
