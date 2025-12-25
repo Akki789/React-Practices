@@ -2,6 +2,7 @@ import "./App.css";
 import ClickCounter from "./components/ClickCounter";
 import DoubleTriple from "./components/DoubleTriple";
 import FruitList from "./components/FruitList";
+import MiniForm from "./components/MiniForm";
 import ToggleText from "./components/ToggleText";
 
 function App() {
@@ -18,12 +19,15 @@ function App() {
         <h2>Question 3 — Simple Toggle Text</h2>
         <ToggleText/>
 
-        <h2>Question 7 — Fruits List (Add + Remove)</h2>
-
+        <h2>Question 4 — Fruits List (Add + Remove)</h2>
         <FruitList />
+
+        <h2>Question 5 — Mini Form (Object State)</h2>
+        <MiniForm />
+
       </div>
 
-      
+
     </div>
   )
 }
