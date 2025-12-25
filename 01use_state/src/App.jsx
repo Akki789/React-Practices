@@ -1,6 +1,7 @@
 import "./App.css";
 import ClickCounter from "./components/ClickCounter";
 import DoubleTriple from "./components/DoubleTriple";
+import ExpenseTracker from "./components/ExpenseTracker";
 import FruitList from "./components/FruitList";
 import MiniForm from "./components/MiniForm";
 import ToggleText from "./components/ToggleText";
@@ -25,6 +26,10 @@ function App() {
         <h2>Question 5 — Mini Form (Object State)</h2>
         <MiniForm />
 
+        <h2>Question 6— Expense Tracker (Basic Version)</h2>
+        <ExpenseTracker />
+
+        
       </div>
 
 
