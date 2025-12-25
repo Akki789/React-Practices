@@ -1,2 +1,2 @@
-# JavaScript-Practices
-JavaScript Solved Questions 
+# React-Practices
+React Solved Questions 
