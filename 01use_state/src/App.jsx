@@ -4,6 +4,7 @@ import DoubleTriple from "./components/DoubleTriple";
 import ExpenseTracker from "./components/ExpenseTracker";
 import FruitList from "./components/FruitList";
 import MiniForm from "./components/MiniForm";
+import TernaryOperator from "./components/TernaryOperator";
 import ToggleText from "./components/ToggleText";
 
 function App() {
@@ -29,6 +30,8 @@ function App() {
         <h2>Question 6— Expense Tracker (Basic Version)</h2>
         <ExpenseTracker />
 
+        <h2>Prop Drilling And Ternary Operator</h2>
+        <TernaryOperator />
         
       </div>
 
