@@ -1,4 +1,5 @@
 import "./App.css";
+import ChildrenPropDrill from "./components/ChildrenPropDrill";
 import ClickCounter from "./components/ClickCounter";
 import DoubleTriple from "./components/DoubleTriple";
 import ExpenseTracker from "./components/ExpenseTracker";
@@ -33,6 +34,8 @@ function App() {
         <h2>Prop Drilling And Ternary Operator</h2>
         <TernaryOperator />
         
+        <h2>📝Props Drilling + children together</h2>
+        <ChildrenPropDrill />
       </div>
 
 
