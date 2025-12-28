@@ -7,7 +7,7 @@ export default function UsersInfo() {
         fetch('https://jsonplaceholder.typicode.com/users')
         .then(res => res.json())
         .then(data => setUsers(data));
-    })
+    }, [])
   return (
     <div>
         <ul>
