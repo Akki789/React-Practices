@@ -1,4 +1,5 @@
 import "./App.css";
+import AutoFocus from "./components/AutoFocus";
 import PreviousValue from "./components/PreviousValue";
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div className="app-shell">
       <div className="assignment-card">
         <PreviousValue />
+        <AutoFocus />
       </div>
     </div>
   )
