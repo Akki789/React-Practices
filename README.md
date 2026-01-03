@@ -1,2 +1,2 @@
 # React-Practices
-React Solved Questions 
+React Solved Questions using different hooks
