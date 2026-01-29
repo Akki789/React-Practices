@@ -3,6 +3,7 @@ import ChangeButtonColor from "./components/ChangeButtonColor";
 import ChildrenPropDrill from "./components/ChildrenPropDrill";
 import ClickCounter from "./components/ClickCounter";
 import Counter from "./components/Counter";
+import DisableButton from "./components/DisableButton";
 import DoubleTriple from "./components/DoubleTriple";
 import ExpenseTracker from "./components/ExpenseTracker";
 import FruitList from "./components/FruitList";
@@ -58,6 +59,9 @@ function App() {
 
         <h2>Change button color</h2>
         <ChangeButtonColor />
+
+        <h2>Disable Button After Click</h2>
+        <DisableButton />
       </div>
 
 
