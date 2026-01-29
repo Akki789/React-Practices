@@ -1,6 +1,7 @@
 import "./App.css";
 import ChildrenPropDrill from "./components/ChildrenPropDrill";
 import ClickCounter from "./components/ClickCounter";
+import Counter from "./components/Counter";
 import DoubleTriple from "./components/DoubleTriple";
 import ExpenseTracker from "./components/ExpenseTracker";
 import FruitList from "./components/FruitList";
@@ -36,6 +37,11 @@ function App() {
         
         <h2>📝Props Drilling + children together</h2>
         <ChildrenPropDrill />
+        
+        
+        {/* //Practice for mock */}
+        <h2>Counter</h2>
+        <Counter />
       </div>
 
 
