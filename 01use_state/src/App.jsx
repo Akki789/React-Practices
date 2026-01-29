@@ -6,6 +6,7 @@ import DoubleTriple from "./components/DoubleTriple";
 import ExpenseTracker from "./components/ExpenseTracker";
 import FruitList from "./components/FruitList";
 import MiniForm from "./components/MiniForm";
+import ShowHideText from "./components/ShowHideText";
 import TernaryOperator from "./components/TernaryOperator";
 import ToggleText from "./components/ToggleText";
 
@@ -42,6 +43,9 @@ function App() {
         {/* //Practice for mock */}
         <h2>Counter</h2>
         <Counter />
+
+        <h2>Show/Hide Text</h2>
+        <ShowHideText />
       </div>
 
 
