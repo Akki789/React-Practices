@@ -8,6 +8,7 @@ import FruitList from "./components/FruitList";
 import MiniForm from "./components/MiniForm";
 import ShowHideText from "./components/ShowHideText";
 import TernaryOperator from "./components/TernaryOperator";
+import ToDoList from "./components/ToDoList";
 import ToggleText from "./components/ToggleText";
 
 function App() {
@@ -46,6 +47,9 @@ function App() {
 
         <h2>Show/Hide Text</h2>
         <ShowHideText />
+
+        <h2>ToDo List</h2>
+        <ToDoList />
       </div>
 
 
