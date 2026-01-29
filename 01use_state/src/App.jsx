@@ -6,6 +6,7 @@ import DoubleTriple from "./components/DoubleTriple";
 import ExpenseTracker from "./components/ExpenseTracker";
 import FruitList from "./components/FruitList";
 import MiniForm from "./components/MiniForm";
+import RenderList from "./components/RenderList";
 import ShowHideText from "./components/ShowHideText";
 import TernaryOperator from "./components/TernaryOperator";
 import ToDoList from "./components/ToDoList";
@@ -50,6 +51,9 @@ function App() {
 
         <h2>ToDo List</h2>
         <ToDoList />
+
+        <h2>Render list from an array</h2>
+        <RenderList />
       </div>
 
 
