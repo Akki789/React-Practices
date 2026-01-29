@@ -1,4 +1,5 @@
 import "./App.css";
+import ChangeButtonColor from "./components/ChangeButtonColor";
 import ChildrenPropDrill from "./components/ChildrenPropDrill";
 import ClickCounter from "./components/ClickCounter";
 import Counter from "./components/Counter";
@@ -54,6 +55,9 @@ function App() {
 
         <h2>Render list from an array</h2>
         <RenderList />
+
+        <h2>Change button color</h2>
+        <ChangeButtonColor />
       </div>
 
 
