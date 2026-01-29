@@ -7,6 +7,7 @@ import DisableButton from "./components/DisableButton";
 import DoubleTriple from "./components/DoubleTriple";
 import ExpenseTracker from "./components/ExpenseTracker";
 import FruitList from "./components/FruitList";
+import LoginForm from "./components/LoginForm";
 import MiniForm from "./components/MiniForm";
 import RenderList from "./components/RenderList";
 import ShowHideText from "./components/ShowHideText";
@@ -62,6 +63,9 @@ function App() {
 
         <h2>Disable Button After Click</h2>
         <DisableButton />
+
+        <h2>Login Form</h2>
+        <LoginForm />
       </div>
 
 
