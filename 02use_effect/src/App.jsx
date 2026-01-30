@@ -2,6 +2,8 @@ import "./App.css";
 import RunTwoEffects from "./components/RunTwoEffects";
 import SearchUsers from "./components/SearchUsers";
 import UsersInfo from "./components/UsersInfo";
+import FetchData from "./Important/FetchData";
+
 
 function App() {
 
@@ -16,6 +18,10 @@ function App() {
 
         <h2>Run two effects: one on every render, one only on mount</h2>
         <RunTwoEffects />
+
+        {/* //Important revision questions */}
+        <h2>Fetch Data using Api</h2>
+        <FetchData />
       </div>
     </div>
   )
