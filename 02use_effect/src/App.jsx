@@ -4,6 +4,7 @@ import SearchUsers from "./components/SearchUsers";
 import UsersInfo from "./components/UsersInfo";
 import CleanupFunction from "./Important/CleanupFunction";
 import FetchData from "./Important/FetchData";
+import SearchBar from "./Important/SearchBar";
 
 
 function App() {
@@ -26,6 +27,9 @@ function App() {
 
         <h2>CleanUp function </h2>
         <CleanupFunction />
+
+        <h2>Searching Users</h2>
+        <SearchBar />
       </div>
     </div>
   )
