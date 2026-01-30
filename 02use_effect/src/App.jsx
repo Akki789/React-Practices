@@ -2,6 +2,7 @@ import "./App.css";
 import RunTwoEffects from "./components/RunTwoEffects";
 import SearchUsers from "./components/SearchUsers";
 import UsersInfo from "./components/UsersInfo";
+import CleanupFunction from "./Important/CleanupFunction";
 import FetchData from "./Important/FetchData";
 
 
@@ -22,6 +23,9 @@ function App() {
         {/* //Important revision questions */}
         <h2>Fetch Data using Api</h2>
         <FetchData />
+
+        <h2>CleanUp function </h2>
+        <CleanupFunction />
       </div>
     </div>
   )
