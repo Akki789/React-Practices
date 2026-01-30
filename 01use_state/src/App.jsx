@@ -9,6 +9,8 @@ import ExpenseTracker from "./components/ExpenseTracker";
 import FruitList from "./components/FruitList";
 import LoginForm from "./components/LoginForm";
 import MiniForm from "./components/MiniForm";
+import Props from "./components/Props";
+import PropsDrilling from "./components/PropsDrilling";
 import RenderList from "./components/RenderList";
 import ShowHideText from "./components/ShowHideText";
 import TernaryOperator from "./components/TernaryOperator";
@@ -66,6 +68,12 @@ function App() {
 
         <h2>Login Form</h2>
         <LoginForm />
+
+        <h2>Props</h2>
+        <Props />
+
+        <h2>Props Drilling</h2>
+        <PropsDrilling />
       </div>
 
 
