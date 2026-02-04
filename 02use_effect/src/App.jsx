@@ -2,6 +2,7 @@ import "./App.css";
 import RunTwoEffects from "./components/RunTwoEffects";
 import SearchUsers from "./components/SearchUsers";
 import UsersInfo from "./components/UsersInfo";
+import Example1 from "./example/example1";
 import CleanupFunction from "./Important/CleanupFunction";
 import FetchData from "./Important/FetchData";
 import SearchBar from "./Important/SearchBar";
@@ -30,6 +31,9 @@ function App() {
 
         <h2>Searching Users</h2>
         <SearchBar />
+
+        {/* Example Questions */}
+        <Example1 />
       </div>
     </div>
   )
